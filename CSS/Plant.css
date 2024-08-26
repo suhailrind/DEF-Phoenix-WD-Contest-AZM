@@ -1,0 +1,658 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: borderbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+    height: 750px;
+    background-image: url(/Images/plantbg2.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    height: 90px;
+    color: rgba(0, 0,0, 0.5);
+    
+}
+
+.portion1{
+    height: 30px;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+   align-items: center;
+}
+
+.email-logo{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    height: 15px;
+}
+
+.contactus{
+    display: flex;
+    color: white;
+    font-size: 13px;
+    height: 15px;
+}
+
+.language{
+    display: flex;
+    color: white;
+    background-color: transparent;
+    font-size: 13px;
+    height: 15px;
+}
+
+.lang-search{
+background-color: transparent;
+color: white;
+border: none;
+font-size: 13px;
+height: 15px;
+}
+
+.login{
+    display: flex;
+    color: white;
+    font-size: 13px;
+    height: 15px;
+}
+.shoping{
+    display: flex;
+    color: white;
+    font-size: 13px;
+    height: 15px;
+
+}
+
+.portion2{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.left{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.logo{
+    width: 110px;
+    height: 40px;
+   border-radius: 50%;
+   display: flex;
+   padding-bottom: 10px;
+
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+.font{
+    font-size: 20px;
+}
+.hover-display:hover{
+    color: rgb(61, 237, 17);
+}
+
+.hero-section{
+    padding-top: 100px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.hero{
+    width: 100%;
+    height: 100px;
+   text-align: center;
+    color: white;
+  
+}
+
+.well-come{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.start{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(61, 237, 17);
+    border: 2px solid rgb(61, 237, 17);
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.contactUs{
+    width: 150px;
+    height: 30px;
+    color:rgb(61, 237, 17);
+    border: borderbox;
+    border: 2px solid rgb(61, 237, 17);
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.our-services{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    background-color: rgba(242, 232, 232, 0.946);
+    
+}
+
+.service{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.care{
+    width: 35%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 150px;
+    float: left;
+
+}
+
+.vedeo{
+    width: 35%;
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 150px;
+    float: right;    
+}
+
+.box{
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+    display: flex;
+}
+
+
+.ABOUTUS{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(242, 232, 232, 0.946);
+}
+.first-part{
+    width: 30%;
+    height: 380px;
+    margin-top: 100px;
+    margin-left: 150px;
+    padding-top: 20px;
+    float: left;
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+    background-image: url(/Images/bg1.jpeg);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.second-part{
+    width: 45%;
+    height: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+    float: right;
+    
+}
+.line1{
+    margin-top: 33px;
+    width: 100%;
+    height: 200px;
+   /* display: flex; */
+}
+.box1{
+    width: 40%;
+    height: 200px;
+    margin-left: 40px;
+    float: left;
+}
+.box2{
+    width: 40%;
+    height: 200px;
+    margin-right: 40px;
+    float: right;
+}
+
+
+.line2{
+    width: 100%;
+    height: 200px;
+    /* display: flex; */
+    margin-top: 34;
+}
+.box3{
+    width: 40%;
+    height: 200px;
+    margin-left: 40px;
+    float: left;
+}
+.box4{
+    width: 40%;
+    height: 200px;
+    margin-right: 40px;
+    float: right;
+}
+
+.Portfolio{
+    width: 100%;
+    height: 1025px;
+    background-color: rgba(242, 232, 232, 0.946);
+   
+}
+
+.heading{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+   padding-top: 40px;
+}
+.bar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  
+}
+.bar a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 5px;
+    color:rgb(72, 71, 71);
+    font-size: 20px;
+}
+
+.gallery{
+    width: 100%;
+    height: 660px;
+    background-color: rgba(242, 232, 232, 0.946);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.R1{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.r1c1{
+    background-image: url(/Images/16.jpg);
+    background-size: cover;
+}
+.r1c2{
+    background-image: url(/Images/17.jpg);
+    background-size: cover;
+}
+.r1c3{
+    background-image: url(/Images/18.jpg);
+    background-size: cover;
+}
+.r1c4{
+    background-image: url(/Images/19.jpg);
+    background-size: cover;
+}
+
+.R2{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.r2c1{
+    background-image: url(/Images/20.jpg);
+    background-size: cover;
+}
+.r2c2{
+    background-image: url(/Images/21.jpg);
+    background-size: cover;
+}
+.r2c3{
+    background-image: url(/Images/22.jpg);
+    background-size: cover;
+}
+
+.size{
+    width: 23%;
+    height: 400px;
+   
+}
+.size2{
+    width: 48.8%;
+    height: 400px;
+}
+
+.Arrivals{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(242, 232, 232, 0.946);
+}
+
+.New-arrivals{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.product{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.size3{
+    width: 20%;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.pr1{
+    background-image: url(/Images/10.jpg);
+    background-size: cover;
+}
+
+.pr2{
+    background-image: url(/Images/11.jpg);
+    background-size: cover;
+}
+
+.pr3{
+    background-image: url(/Images/12.jpg);
+    background-size: cover;
+}
+
+.pr4{
+    background-image: url(/Images/13.jpg);
+    background-size: cover;
+}
+
+.price{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-items:center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.size4{
+    width: 20%;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text{
+    text-decoration: none;
+    color: rgb(72, 71, 71);
+}
+
+.view{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color:rgb(61, 237, 17) ;
+    color:white;
+    border-radius: 2px;
+    padding-top: 15px;
+}
+
+.hover-display1:hover{
+    background-color: white;
+    color:rgb(61, 237, 17) ;
+    height: 33px;
+    border: 2px solid rgb(61, 237, 17);
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 450x;
+    background-image: url(/Images/20.jpg);
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.size6{
+    width: 20%;
+    height: 80%;
+    background-color:transparent;
+
+}
+
+.footer-up{
+    width: 90%;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   background-color:transparent;
+   display: flex;
+   justify-content: space-around;
+   justify-items: center;
+}
+
+
+
+.Acc{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.Acc a i{
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.L{
+    width: 48%;
+    height: 70%;
+    background-color: transparent;
+    display: inline-block;
+    
+}
+
+.L a{
+    color: rgb(72, 71, 71);
+    text-decoration: none;
+}
+
+
+.L a:hover{
+   color: white;
+}
+
+.R{
+    width: 48%;
+    height: 70%;
+    background-color: transparent;
+}
+
+.R a{
+    color: rgb(72, 71, 71);
+    text-decoration: none;
+} 
+
+.R a:hover{
+    color: white;
+ }
+
+ .up{
+    width: 100%;
+    height: 35%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .L2{
+    width: 40%;
+    height: 100%;
+    background-image: url(/Images/10.jpg);
+    background-size: cover;
+ }
+
+ 
+ .R3{
+    width: 58%;
+    height: 100%;
+    background-color:transparent;
+    text-align: center;
+    color: white;
+ }
+ .R3 a{
+    text-decoration: none;
+    color:rgb(72, 71, 71) ;
+ }
+
+ .R3 a:hover{
+    color: white;
+ }
+
+ 
+ .down{
+    width: 100%;
+    height: 35%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .L3{
+    width: 40%;
+    height: 100%;
+    background-image: url(/Images/11.jpg);
+    background-size: cover;
+ }
+
+ 
+ .R4{
+    width: 58%;
+    height: 100%;
+    background-color:transparent;
+    justify-items: center;
+    text-align: center;
+    color: white;
+ }
+
+ .R4 a{
+    text-decoration: none;
+    color:rgb(72, 71, 71) ;
+ }
+
+ .R4 a:hover{
+    color: white;
+ }
+ .Box4 p{
+    display: flex;
+ }
+
+ 
+.footer-down{
+    width: 90%;
+    height: 80px;
+   background-color:transparent;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.R5{
+    width: 30%;
+    height: 70px;
+    background-color:transparent;
+}
+
+.L5{
+    width: 40%;
+    height: 50px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.L5 a{
+    text-decoration: none;
+    color:rgb(72, 71, 71) ;
+}
+
+.L5 a:hover{
+    color: white;
+}
+
+
+ 
